@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.qxzzxq</groupId>
-    <artifactId>setl-template</artifactId>
+    <artifactId>setl-confbug</artifactId>
     <version>${revision}${changelist}</version>
 
     <properties>
@@ -59,9 +59,9 @@
             <scope>${dependencies.scope}</scope>
         </dependency>
         <dependency>
-            <groupId>com.jcdecaux.setl</groupId>
+            <groupId>io.github.setl-framework</groupId>
             <artifactId>setl_${scala.compat.version}</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0-RC2</version>
         </dependency>
 
         <!-- Test -->
